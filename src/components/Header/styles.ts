@@ -24,6 +24,11 @@ export const Container = styled.div`
           display: flex;
           flex-direction: row;
           align-items: center;
+          transition: filter 0.2s;
+
+          &:hover {
+            filter: brightness(0.9);
+          }
 
           .text {
             padding: 16px 24px;
